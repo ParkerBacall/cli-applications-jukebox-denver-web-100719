@@ -17,11 +17,10 @@ puts "Please enter a song name or number:"
 user_input = gets.strip
   if user_input.to_i >= 1 && user_input.to_i <= songs.length
       puts "#{songs[user_input.to_i-1]}"
+    else
+      puts "Invalid input, please try again"
   end
-      if user_input.to_i == (index+1)
-        puts "#{index+1}. #{item}"
-      elsif user_input == item
-         puts "#{item}"
+      
        else
          puts "Invalid input, please try again"
     end
