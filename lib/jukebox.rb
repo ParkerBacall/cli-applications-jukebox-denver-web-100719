@@ -20,9 +20,6 @@ user_input = gets.strip
     else
       puts "Invalid input, please try again"
   end
-
-       else
-         puts "Invalid input, please try again"
     end
 end
 
