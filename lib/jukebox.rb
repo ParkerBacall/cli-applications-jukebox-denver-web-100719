@@ -16,7 +16,7 @@ def play(songs)
 puts "Please enter a song name or number:"
 user_input = gets.strip
   if user_input.to_i >= 1 && user_input.to_i <= songs.length
-      puts "songs[user_input]"
+      puts "songs[user_input.to_i]"
   end
       if user_input.to_i == (index+1)
         puts "#{index+1}. #{item}"
