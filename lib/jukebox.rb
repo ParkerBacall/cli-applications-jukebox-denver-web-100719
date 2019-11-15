@@ -18,7 +18,7 @@ user_input = gets.strip
   if user_input.to_i >= 1 && user_input.to_i <= songs.length
       puts "#{songs[user_input.to_i-1]}"
     elsif songs.include?(user_input)
-        puts "#{songs.find {|song| song == user_input}}"
+        puts "playing #{songs.find {|song| song == user_input}}"
       else
         puts "Invalid input, please try again"
   end
