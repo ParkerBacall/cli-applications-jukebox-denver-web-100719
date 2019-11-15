@@ -38,7 +38,7 @@ def run(songs)
   elsif user_input == 'list'
     list(songs)
   elsif user_input == 'play'
-    play(songs)
+    playing play(songs)
   elsif user_input == 'exit'
     exit_jukebox
   end
